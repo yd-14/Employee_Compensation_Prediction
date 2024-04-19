@@ -1,3 +1,7 @@
+'''
+define config for logging throught the project
+'''
+
 import logging
 import os
 from datetime import datetime

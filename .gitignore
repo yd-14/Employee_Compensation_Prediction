@@ -1,1 +1,9 @@
 venv
+logs
+venv2
+build
+DemoPipline.egg-info
+dist
+notebooks/data
+artifacts/raw_data.csv
+artifacts/train_data.csv

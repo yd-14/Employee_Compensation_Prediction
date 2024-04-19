@@ -1,0 +1,58 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Organization_Group_Code">Organization Group Code:</label>
+        <input type="text" id="Organization_Group_Code" name="Organization_Group_Code" placeholder="Enter Organization_Group_Code value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="Job_Family_Code">Job_Family_Code:</label>
+        <input type="text" id="Job_Family_Code" name="Job_Family_Code" placeholder="Enter Job_Family_Code value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="Job_Code">Job_Code:</label>
+        <input type="text" id="Job_Code" name="Job_Code" placeholder="Enter Job_Code value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="Year">Year:</label>
+        <input type="text" id="Year" name="Year" placeholder="Enter Year value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Department_Code">Department_Code:</label>
+        <input type="text" id="Department_Code" name="Department_Code" placeholder="Enter Department_Code value (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="Union_Code">Union_Code:</label>
+        <input type="text" id="Union_Code" name="Union_Code" placeholder="Enter Union_Code value (float)">
+    </div> 
+
+    <div class="form-group">
+        <label for="Overtime_Amount">Overtime_Amount:</label>
+        <input type="text" id="Overtime_Amount" name="Overtime_Amount" placeholder="Enter Overtime_Amount value (float)">
+    </div> 
+
+    <div class="form-group">
+        <label for="Retirement_Amount">Retirement_Amount:</label>
+        <input type="text" id="Retirement_Amount" name="Retirement_Amount" placeholder="Enter Retirement_Amount value (float)">
+    </div> 
+
+    <div class="form-group">
+        <label for="Health_and_Dental_Amount">Health_and_Dental_Amount:</label>
+        <input type="text" id="Health_and_Dental_Amount" name="Health_and_Dental_Amount" placeholder="Enter Health_and_Dental_Amount value (float)">
+    </div> 
+
+    <div class="form-group">
+        <label for="Other_Benefits_Amount">Other_Benefits_Amount:</label>
+        <input type="text" id="Other_Benefits_Amount" name="Other_Benefits_Amount" placeholder="Enter Other_Benefits_Amount value (float)">
+    </div>      
+  
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
